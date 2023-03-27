@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .clothing-item {
+    position: relative;
+    width: 15%;
+    margin: 1.00%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .clothing-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .price {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .original-price {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #999;
+    margin-bottom: 5px;
+  }
+
+  .discount-badge {
+    position: absolute;
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    border-radius: 50%; /* Make it a circle */
+    font-size: 14px;
+    padding: 4px 8px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .discount-percentage{
+    position: absolute;
+    background-color: #ae1c1c;
+    color: #fff;
+    border-radius: 50%; 
+    font-size: 14px;
+    padding: 4px 8px;
+    top: 10px;
+    left: 10px;
+
+
+  }
+
+  .hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .clothing-item:hover .hover-content {
+    opacity: 1;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 60;
+    margin-top: 20px;
+  }
+  
+  .icons span {
+  
+  }
+
+  .icon-container {
+    background-color: #312584;
+    padding: 5px;
+    border-radius: 3px;
+  }

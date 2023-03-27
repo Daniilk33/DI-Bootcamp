@@ -1,0 +1,12 @@
+table,th,td{
+    border:4px solid blue ;
+}
+
+#rowone{
+color: red;
+
+}
+
+p{
+margin: 25px;
+}

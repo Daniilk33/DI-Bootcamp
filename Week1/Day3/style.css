@@ -1,0 +1,84 @@
+body{
+background-image: url('Background.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.logo{
+    height: 50px;
+    }
+li{
+    display:inline-block;
+    float: right;
+    color: white;
+}
+nav{
+    background-color: black;
+}
+h1{
+    font-family: 'Moon Dance', cursive;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+  .nav{
+    background-color: lightgreen;
+}
+p {
+    margin-left: 20px;
+}
+}
+@media (min-width: 992px) {
+/* Large devices */
+h1 {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+p {
+    margin-left: 40px;
+}
+.nav {
+    background-color: red;
+}
+}
+@media (min-width: 1200px) {
+/* Extra large devices */
+h1 {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+p {
+    margin-left: 40px;
+}
+.nav {
+    background-color: black;
+    color: white;
+}
+}
+@media (min-width: 600px) and (max-width: 767px) {
+/* Small devices */
+h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    margin-left: 20px;
+}
+.nav{
+    background-color: yellow;
+    color: black;
+}
+}

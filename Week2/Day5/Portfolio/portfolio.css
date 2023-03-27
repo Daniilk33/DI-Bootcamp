@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+
+.navbar{
+background-color: orange;
+}
+.background-section {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh; /* 50% of the viewport height */
+    width: 100%; /* Full width */
+}
+
+.text{
+    text-align: center;
+    color:solid purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+.text-container{
+    padding: 20px;
+    text-align: center;
+}
+
+.text-image{
+padding: 20px;
+text-align: left;
+
+}
+
+.vertical{
+    border-left: 6px solid green;
+    height: 300px;
+    position:absolute;
+    left: 30%;
+    margin-left: 1px;
+    top: 700px;
+}
+
+.inside-text{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+
+.text-again{
+    text-align: center;
+    color: deeppink;
+}
+
+.container{
+  
+        width: 100%;
+        overflow: auto;
+      }
+    
+.portfolio-display{
+
+    position: relative;
+    width: 30%;
+    margin: 1.00%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+
+.text-three{
+    text-align: center;
+}
+

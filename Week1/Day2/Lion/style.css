@@ -1,0 +1,46 @@
+header {
+    padding-bottom: 10px; /* Add space between header and underline */
+    border-bottom: 2px solid black;
+    font-size: larger;
+    font-weight:bold;
+}
+
+table {
+    width: 75%;
+    margin: 0 auto; /* Center the table horizontally and remove default padding */
+    border-collapse: collapse;
+  }
+  td {
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    color: red;
+  }
+
+  .table-container {
+    
+    display: flex;
+  }
+
+
+.mytable{
+border-collapse: collapse;
+margin-bottom: 20px;
+}
+.mytd{
+
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center
+}
+
+img {
+    border: 5px solid red;
+    width: 10%;
+    position: fixed;
+    left: 15%;
+    right: 14%;
+    bottom: 0;
+    margin: 20%;
+
+  }
